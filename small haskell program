@@ -1,0 +1,9 @@
+-- Petit programme Haskell basique
+-- Auteur : Olivier Rishi Matabaro
+
+main :: IO ()
+main = do
+    putStrLn "Hello, Haskell!"
+    let x = 10
+    let y = 20
+    putStrLn ("La somme de " ++ show x ++ " et " ++ show y ++ " est : " ++ show (x + y))
